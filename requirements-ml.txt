@@ -1,0 +1,3 @@
+# Optional semantic embedding and cross-encoder reranking stack.
+# The base application remains runnable with its deterministic local fallback.
+sentence-transformers>=3.3,<4
