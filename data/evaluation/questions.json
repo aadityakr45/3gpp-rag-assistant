@@ -1,0 +1,6 @@
+{
+  "dataset_version": "0.1",
+  "corpus_release": "18",
+  "questions": [],
+  "notes": "Populate manually after confirming the actual indexed corpus. Every gold_chunk_ids/gold_clauses entry must be tied to inspected source evidence; no synthetic scores are implied."
+}

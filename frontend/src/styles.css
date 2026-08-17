@@ -1,0 +1,25 @@
+:root { font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #e8edf5; background: #0b1220; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, textarea { font: inherit; }
+.shell { width: min(900px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0; }
+.eyebrow { color: #68d6c1; font-size: 12px; font-weight: 700; letter-spacing: .16em; }
+h1 { font-size: clamp(44px, 8vw, 76px); letter-spacing: -.06em; margin: 8px 0; }
+.subtitle { color: #9eabc0; font-size: 18px; }
+.question-form { display: grid; gap: 12px; margin: 42px 0 28px; }
+textarea { width: 100%; min-height: 130px; padding: 18px; color: #f4f7fb; background: #131e32; border: 1px solid #2c3a54; border-radius: 14px; resize: vertical; outline: none; }
+textarea:focus { border-color: #68d6c1; }
+button { cursor: pointer; border: 0; border-radius: 10px; }
+.question-form button { justify-self: end; padding: 12px 18px; color: #07131c; background: #68d6c1; font-weight: 700; }
+.answer { padding: 24px; background: #131e32; border: 1px solid #2c3a54; border-radius: 16px; line-height: 1.65; }
+.abstained { border-color: #b99154; }
+.answer-heading { display: flex; justify-content: space-between; color: #68d6c1; font-size: 12px; font-weight: 700; letter-spacing: .08em; }
+.abstained .answer-heading { color: #e0b66e; }
+.meta { color: #8e9bb0; font-size: 13px; }
+.sources { margin-top: 28px; }
+.sources h2, .inspector h2 { font-size: 17px; }
+.source { display: grid; gap: 4px; width: 100%; margin: 8px 0; padding: 13px; color: #dce6f2; text-align: left; background: #1b2942; }
+.source span { color: #9eabc0; font-size: 13px; }
+.error { color: #ff9a9a; }
+.inspector { position: fixed; right: 24px; bottom: 24px; width: min(480px, calc(100% - 48px)); max-height: 70vh; overflow: auto; padding: 20px; background: #17243a; border: 1px solid #68d6c1; border-radius: 14px; box-shadow: 0 20px 60px #0008; line-height: 1.6; }
+.close { float: right; padding: 6px 10px; color: #dce6f2; background: #2b3b58; }
